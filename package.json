@@ -1,0 +1,16 @@
+{
+	"author": "Voltaism",
+	"version": "1.0",
+        "onset_build": "1.0.3",
+        "server_scripts": [
+                "server/drift.lua"
+        ],
+        "client_scripts": [
+                "client/cl_drift.lua"
+        ],
+        "auto_updater": {
+           "package.json": "https://raw.githubusercontent.com/vugi99/onset-drift/master/package.json",
+           "server/drift.lua": "https://raw.githubusercontent.com/vugi99/onset-drift/master/server/drift.lua",
+           "client/cl_drift.lua": "https://raw.githubusercontent.com/vugi99/onset-drift/master/client/cl_drift.lua"
+        }
+}
